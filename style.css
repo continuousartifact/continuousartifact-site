@@ -1,0 +1,216 @@
+@font-face {
+    font-family: 'Feature Text';
+    src: url('fonts/FeatureText-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Feature Text';
+    src: url('fonts/FeatureText-BoldItalic.woff2') format('woff2');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Feature Text';
+    src: url('fonts/FeatureText-ExtraBold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Feature Text';
+    src: url('fonts/FeatureText-RegularItalic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Feature Text';
+    src: url('fonts/FeatureText-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Feature Text';
+    src: url('fonts/FeatureText-ExtraBoldItalic.woff2') format('woff2');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Forevs';
+    src: url('fonts/Forevs-SuperItalic.woff2') format('woff2');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Forevs';
+    src: url('fonts/Forevs-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Forevs';
+    src: url('fonts/Forevs-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Forevs';
+    src: url('fonts/Forevs-BlackItalic.woff2') format('woff2');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Forevs';
+    src: url('fonts/Forevs-LightItalic.woff2') format('woff2');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Forevs';
+    src: url('fonts/Forevs-Black.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Forevs';
+    src: url('fonts/Forevs-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Forevs';
+    src: url('fonts/Forevs-Super.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Forevs';
+    src: url('fonts/Forevs-Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Forevs';
+    src: url('fonts/Forevs-MediumItalic.woff2') format('woff2');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Forevs';
+    src: url('fonts/Forevs-ThinItalic.woff2') format('woff2');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Forevs';
+    src: url('fonts/Forevs-Thin.woff2') format('woff2');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Forevs';
+    src: url('fonts/Forevs-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Forevs';
+    src: url('fonts/Forevs-BoldItalic.woff2') format('woff2');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+:root {
+  --w: 480px;
+}
+
+body {
+  margin: 2em 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Feature Text', "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+header {
+    max-width: var(--w);
+}
+
+header h1 {
+  display: none;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+}
+
+header p {
+  margin-top: -48px;
+    padding: 0 12px
+}
+
+.my-slider img {
+  width: 475px;
+  height: auto;
+  box-shadow: 0 12px 24px -12px rgba(0, 0, 0, 0.4);
+}
+
+.my-slider>div {
+  padding-bottom: 24px;
+}
+
+section#preview {
+  width: 100vw;
+  max-width: 100%;
+  overflow: hidden;
+  margin: 24px 0;
+}
+
+section.text {
+    width: var(--w);
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 12px;
+}

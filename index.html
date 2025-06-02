@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Continuous Artifact</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"
+      integrity="sha512-j+F4W//4Pu39at5I8HC8q2l1BNz4OF3ju39HyWeqKQagW6ww3ZF9gFcu8rzUbyTDY7gEo/vqqzGte0UPpo65QQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <h1>Continuous Artifact</h1>
+      <img
+        src="images/cover.jpg"
+        alt="Cover of a hardcover book with the title 'Continuous Artifact'"
+      />
+      <p>
+        Hi! I'm producing a book called <i>Continuous Artifact</i> that
+        reproduces actual-size images of all 988
+        <i>Magic: The Gathering</i> cards released by Wizards of the Coast in
+        1993–94.
+      </p>
+    </header>
+
+    <main>
+      <section id="preview">
+        <div class="my-slider">
+          <div><img src="images/pages/73.png" /></div>
+          <div><img src="images/pages/40.png" /></div>
+          <div><img src="images/pages/02.png" /></div>
+          <div><img src="images/pages/44.png" /></div>
+          <div><img src="images/pages/07.png" /></div>
+          <div><img src="images/pages/69.png" /></div>
+          <div><img src="images/pages/63.png" /></div>
+          <div><img src="images/pages/20.png" /></div>
+        </div>
+      </section>
+      <section class="text">
+        <p>
+          You can view a
+          <a
+            href="https://drive.google.com/file/d/1AZuODXGXS_DvQIlPgrHogJs5ZX5WJzNu/view?usp=sharing"
+            >low-res preview</a
+          >, follow
+          <a
+            href="https://github.com/continuousartifact/continuousartifact-book"
+            >build instructions on GitHub</a
+          >
+          or reach me at <kbd>andy</kbd> at this domain.
+        </p>
+        <p>—Andy Rossmeissl</p>
+      </section>
+    </main>
+    <footer></footer>
+
+    <script>
+      var slider = tns({
+        container: ".my-slider",
+        items: 1,
+        fixedWidth: 475,
+        autoplay: true,
+        autoplayTimeout: 0,
+        speed: 20000,
+        controls: false,
+        loop: true,
+        autoplayButton: false,
+        autoplayButtonOutput: false,
+        nav: false,
+        responsive: {
+          640: {
+            edgePadding: 20,
+            gutter: 20,
+            items: 2,
+          },
+          700: {
+            gutter: 30,
+          },
+          900: {
+            items: 3,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
